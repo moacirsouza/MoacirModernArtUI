@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MoacirModernArtUI</string>
+    <string name="textView01">Primeiro item</string>
+    <string name="textView02">Segundo item</string>
+    <string name="textView03">Terceiro item</string>
+    <string name="textView04">Quarto item</string>
+    <string name="textView05">Quinto item</string>
+    <string name="moreInfo">More Information</string>
+    <!-- string name="item06">Sexto item</string -->
+</resources>
