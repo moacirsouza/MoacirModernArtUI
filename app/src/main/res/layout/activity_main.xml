@@ -4,84 +4,101 @@
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
-    android:paddingLeft="@dimen/activity_horizontal_margin"
-    android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.moacir.moacirmodernartui.MainActivity">
+    android:padding="@dimen/paddingExterno"
+    tools:context="com.example.moacir.moacirmodernartui.MainActivity"
+    android:orientation="vertical">
 
     <LinearLayout
-        android:id="@+id/layout01"
-        android:layout_width="0sp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:orientation="vertical">
+        android:id="@+id/internalLayout01"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="15">
 
-        <TextView
-            android:id="@+id/item01"
-            android:text="@string/textView01"
-            android:gravity="center_vertical|center"
-            android:textSize="20sp"
-            android:textColor="@color/minhaCor"
-            android:background="@color/colorPrimaryDark"
-            android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_weight="2"
-            android:layout_marginRight="@dimen/margemEntreBlocos"
-            android:layout_marginBottom="@dimen/margemEntreBlocos"/>
+        <LinearLayout
+            android:id="@+id/internalLayout0101"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_alignParentLeft="true">
 
-        <TextView
-            android:id="@+id/item02"
-            android:text="@string/textView02"
-            android:gravity="center_vertical|center"
-            android:textSize="20sp"
-            android:textColor="@color/minhaCor"
-            android:background="@color/colorAccent"
-            android:layout_width="match_parent"
-            android:layout_height="0sp"
+            <TextView
+                android:id="@+id/textView01"
+                android:text="@string/textViewText"
+                android:gravity="center_vertical|center"
+                android:textSize="20sp"
+                android:textColor="@color/textColorBlack"
+                android:background="@color/textView01Color"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/margemEntreBlocos"/>
+
+            <TextView
+                android:id="@+id/textView02"
+                android:text="@string/textViewText"
+                android:gravity="center_vertical|center"
+                android:textSize="20sp"
+                android:textColor="@color/textColorBlack"
+                android:background="@color/textView02Color"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/margemEntreBlocos"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/iternalLayout0102"
+            android:layout_width="0sp"
+            android:layout_height="match_parent"
             android:layout_weight="2"
-            android:layout_marginRight="@dimen/margemEntreBlocos"/>
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView03"
+                android:text="@string/textViewText"
+                android:gravity="center_vertical|center"
+                android:textSize="20sp"
+                android:textColor="@color/textColorBlack"
+                android:background="@color/textView03Color"
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/margemEntreBlocos"/>
+            <TextView
+                android:id="@+id/textView04"
+                android:text="@string/textViewText"
+                android:gravity="center_vertical|center"
+                android:textSize="20sp"
+                android:textColor="@color/textColorBlack"
+                android:background="@color/textView04Color"
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/margemEntreBlocos"/>
+            <TextView
+                android:id="@+id/textView05"
+                android:text="@string/textViewText"
+                android:gravity="center_vertical|center"
+                android:textSize="20sp"
+                android:textColor="@color/textColorBlack"
+                android:background="@color/textView05Color"
+                android:layout_width="match_parent"
+                android:layout_height="0sp"
+                android:layout_weight="1"
+                android:layout_margin="@dimen/margemEntreBlocos"/>
+        </LinearLayout>
     </LinearLayout>
 
     <LinearLayout
-        android:id="@+id/layout02"
-        android:layout_width="0sp"
-        android:layout_height="match_parent"
-        android:layout_weight="2"
-        android:orientation="vertical">
+        android:id="@+id/internalLayout02"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
 
-        <TextView
-            android:id="@+id/item03"
-            android:text="@string/textView03"
-            android:gravity="center_vertical|center"
-            android:textSize="20sp"
-            android:textColor="@color/minhaCor"
-            android:background="@color/colorAccent"
+        <SeekBar
+            android:id="@+id/seekBar"
             android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_weight="3"
-            android:layout_marginBottom="@dimen/margemEntreBlocos"/>
-        <TextView
-            android:id="@+id/item04"
-            android:text="@string/textView04"
-            android:gravity="center_vertical|center"
-            android:textSize="20sp"
-            android:textColor="@color/minhaCor"
-            android:background="@color/colorPrimary"
-            android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_weight="3"
-            android:layout_marginBottom="@dimen/margemEntreBlocos"/>
-        <TextView
-            android:id="@+id/item05"
-            android:text="@string/textView05"
-            android:gravity="center_vertical|center"
-            android:textSize="20sp"
-            android:textColor="@color/minhaCor"
-            android:background="@color/colorPrimaryDark"
-            android:layout_width="match_parent"
-            android:layout_height="0sp"
-            android:layout_weight="3"/>
+            android:layout_height="match_parent"/>
     </LinearLayout>
-
 </LinearLayout>

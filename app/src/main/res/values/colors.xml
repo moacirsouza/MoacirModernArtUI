@@ -3,5 +3,10 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <color name="minhaCor">#FFFFFF</color>
+    <color name="textView01Color">#375E97</color>
+    <color name="textView02Color">#FB6542</color>
+    <color name="textView03Color">#FFBB00</color>
+    <color name="textView04Color">#FFFFFF</color>
+    <color name="textView05Color">#3F681C</color>
+    <color name="textColorBlack">#000000</color>
 </resources>
