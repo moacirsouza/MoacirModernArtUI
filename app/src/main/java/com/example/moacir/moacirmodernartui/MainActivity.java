@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         tv3.setBackgroundColor(getResources().getColor(R.color.textView03Color, getTheme())+progress^4);
         //tv3.setText("Color\n#" + Integer.toHexString(getResources().getColor(R.color.textView03Color, getTheme())+progress));
 
-        tv4.setBackgroundColor(getResources().getColor(R.color.textView04Color, getTheme())-progress^5);
+        //tv4.setBackgroundColor(getResources().getColor(R.color.textView04Color, getTheme())-progress^5);
         //tv4.setText("Color\n#" + Integer.toHexString(getResources().getColor(R.color.textView04Color, getTheme())+progress));
 
         tv5.setBackgroundColor(getResources().getColor(R.color.textView05Color, getTheme())+progress^6);
