@@ -1,5 +1,14 @@
 <resources>
     <string name="app_name">MoacirModernArtUI</string>
-    <string name="textViewText">Color</string>
+    <string name="textView01Text">Color\n#ff375e97</string>
+    <string name="textView02Text">Color\n#fffb6542</string>
+    <string name="textView03Text">Color\n#ffffbb00</string>
+    <string name="textView04Text">Color\n#ffffffff</string>
+    <string name="textView05Text">Color\n#ff3f681c</string>
     <string name="moreInfo">More Information</string>
+    <string name="buttonGoToMoMAText">Visit MoMA</string>
+    <string name="buttonNotNowText">Not now!</string>
+    <string name="dialogText">Created as a Project to the Programming Mobile
+        Applications for Android Handheld Systems: Part 1 CourseEra course.
+        \n\nHow about a visit to MoMA?</string>
 </resources>
